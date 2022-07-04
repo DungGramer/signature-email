@@ -12,7 +12,7 @@
         <mj-image
           width="100px"
           padding="0"
-          src="../public/images/logo@100.png"
+          src="https://raw.githubusercontent.com/DungGramer/signature-email/master/public/images/logo%40100.png"
         />
       </mj-column>
 
@@ -75,15 +75,15 @@
 
       <mj-group>
         <mj-column padding-top="0">
-          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_fb@32.png" href="https://www.facebook.com/DungGramer">
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="https://raw.githubusercontent.com/DungGramer/signature-email/master/public/images/icon_fb%4032.png" href="https://www.facebook.com/DungGramer">
         </mj-column>
   
         <mj-column padding="0">
-          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_github@32.png" href="https://www.github.com/DungGramer" />
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="https://raw.githubusercontent.com/DungGramer/signature-email/master/public/images/icon_github%4032.png" href="https://www.github.com/DungGramer" />
         </mj-column padding="0">
   
         <mj-column padding="0">
-          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_linkedin@32.png" href="https://www.linkedin.com/in/dunggramer/" />
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="https://raw.githubusercontent.com/DungGramer/signature-email/master/public/images/icon_linkedin%4032.png" href="https://www.linkedin.com/in/dunggramer/" />
         </mj-column>
       </mj-group>
 
