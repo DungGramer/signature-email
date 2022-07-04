@@ -1,0 +1,23 @@
+{
+  "name": "signature-email",
+  "version": "1.0.0",
+  "description": "Signature for email",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml src/index.mjml -o dist/index.html --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DungGramer/signature-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DungGramer/signature-email/issues"
+  },
+  "homepage": "https://github.com/DungGramer/signature-email#readme",
+  "devDependencies": {
+    "mjml": "^4.12.0"
+  }
+}

@@ -1,0 +1,92 @@
+<mjml>
+  <mj-body>
+    <mj-section padding="0" padding-top="16px">
+      <mj-column padding="0">
+        <mj-text padding="0"> All the best, </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section text-align="left" padding-top="16px" padding-bottom="16px">
+      <!-- Left image -->
+      <mj-column width="120px" padding="0">
+        <mj-image
+          width="100px"
+          padding="0"
+          src="../public/images/logo@100.png"
+        />
+      </mj-column>
+
+      <!-- right paragraph -->
+      <mj-column>
+        <mj-text
+          font-size="24px"
+          font-family="Verdana,Arial,Helvetica,sans-serif"
+          color="#000000"
+          padding-top="0"
+          padding-bottom="0"
+        >
+          Nguyễn Công <strong>Dũng</strong>
+        </mj-text>
+
+        <mj-text
+          font-size="16px"
+          font-family="Verdana,Arial,Helvetica,sans-serif"
+          color="#707070"
+          padding-top="0"
+          padding-bottom="0"
+          line-height="25.6px"
+        >
+          Front-end Middle
+        </mj-text>
+        <mj-button
+          background-color="transparent"
+          inner-padding="0px"
+          padding-top="12px"
+          padding-bottom="0"
+          align="left"
+          text-align="left"
+          href="tel:+84334565999"
+          color="#2D313A"
+          font-family="Lucida Grande,Verdana,Arial,Helvetica,sans-serif"
+          font-size="12px"
+        >
+          +84 334 565 999
+        </mj-button>
+        <mj-button
+          background-color="transparent"
+          inner-padding="0px"
+          padding-bottom="2px"
+          padding-top="4px"
+          align="left"
+          text-align="left"
+          href="https://goo.gl/maps/3JU6EnBvfAQcWKqg7"
+          color="#2D313A"
+          font-family="Lucida Grande,Verdana,Arial,Helvetica,sans-serif"
+          font-size="12px"
+        >
+          125D, Minh Khai, Hai Bà Trưng, Hà Nội
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section text-align="left" padding-top="0" padding-bottom="16px">
+      <mj-column width="120px" padding="0"></mj-column>
+
+      <mj-group>
+        <mj-column padding-top="0">
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_fb@32.png" href="https://www.facebook.com/DungGramer">
+        </mj-column>
+  
+        <mj-column padding="0">
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_github@32.png" href="https://www.github.com/DungGramer" />
+        </mj-column padding="0">
+  
+        <mj-column padding="0">
+          <mj-image padding="0" width="32px" border="1px solid #dddddd" src="../public/images/icon_linkedin@32.png" href="https://www.linkedin.com/in/dunggramer/" />
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+  </mj-body>
+</mjml>

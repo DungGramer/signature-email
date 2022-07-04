@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DungGramer Card Visit</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./all.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet" />
+		<style>
+			:root{
+	--primary-color: #3575D3;
+}
+html{
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	color: #333;
+}
+.image{
+	min-width: 35.4%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+img{
+	width: 10%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.card{
+	display: flex;
+	max-height: 20%;
+	max-width: 40%;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 1px #e0e0e0;
+	overflow: hidden;
+}
+
+.name{
+	margin: 10px 30px 15px 0;
+}
+.name h1{
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	color: var(--primary-color);
+	letter-spacing: 1px;
+}
+.name h2{
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+.contact{
+	font-size: 1.2rem;
+	margin-left: 20px;
+}
+
+.link{
+	display: inline-flex;
+	position: relative;
+}
+.icon {
+	color: var(--primary-color);
+	font-size: 1.4rem;
+}
+i.fa-envelope{
+	position: relative;
+	left: -3px;
+}
+i.fa-map-marker-alt{
+	position: relative;
+	left: -2px;
+}
+.icon-link{
+	position: relative;
+	left: -7px;
+	margin: 10px 10px 5px 0;
+	font-size: 2.4rem;
+}
+.label{
+	padding-left: 5px;
+}
+.phone__label{
+	position: relative;
+	left: 6px;
+}
+.email__label{
+	position: relative;
+}
+.location__label{
+	position: relative;
+	left: 3px;
+}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="image" style="background-image: url(https://raw.githubusercontent.com/DungGramer/signature-email/master/img/avatar-2.jpg);"></div>
+			<!-- <div class="image"><img src="./avatar-2.jpg" alt=""></div> -->
+
+			<div class="contact">
+				<div class="name">
+					<h1>Nguyễn Công Dũng</h1>
+					<h2>Front-end Junior</h2>
+				</div>
+
+				<div class="phone">
+					<i class="icon fas fa-mobile"></i>
+					<span class="label phone__label">0334565999</span>
+				</div>
+
+				<div class="email">
+					<i class="icon fas fa-envelope"></i>
+					<span class="label email__label">dung.dev.gramer@gmail.com</span>
+				</div>
+
+				<div class="location">
+					<i class="icon fas fa-map-marker-alt"></i>
+					<span class="label location__label">125D, Minh Khai, Hai Bà Trưng</span>
+				</div>
+
+				<div class="link">
+					<a href="https://www.facebook.com/dung.dev.gramer/" class="facebook"><i class="icon icon-link fab fa-facebook"></i></a>
+					<a href="https://www.linkedin.com/in/DungGramer" class="linkedin"><i class="icon icon-link fab fa-linkedin"></i></a>
+					<a href="https://github.com/DungGramer" class="github"><i class="icon icon-link fab fa-github"></i></a>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
